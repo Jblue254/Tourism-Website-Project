@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#1B3C53] ">
+    <header class="text-[#F9F3EF] body-font ">
+        <nav class="bg-transparent text-[#F9F3EF] px-8 py-4 rounded-br-[20px] rounded-bl-[20px]">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+
+                
+                <div class="flex items-center space-x-6">
+                    
+                    <div class="flex items-center space-x-2">
+                    <a href="index.html"><p class="text-2xl">The Blues Hotel &</p><p class="pl-[60px]">Tours</p></a>
+                </div>
+
+                   
+                    <div class="hidden md:flex space-x-8 text-gray-300 pl-[150px]  ">
+                        <a href="index.html">Home</a>
+                        <a href="Destination Page.html">Destinations</a>
+                        <a href="Destination Page Details.html">Details</a>
+                        <a href="Booking Page.html">Booking Details</a>
+                        <a href="About Us Page.html">About Us</a>
+                        <a href="Travel Tips.html">Travel Tips</a>
+                        <a href="Contact Page.html">Contact Us</a>
+                        <a href="Gallary Page.html">Gallary</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+
+        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+            
+            <div class="duration-700 ease-in-out" data-carousel-item="active">
+
+                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                    
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="couresel 1.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+
+                    </div>
+                    
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="couresel 2.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                    
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="couresel 3.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                   
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="couresel 4.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                
+                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                        <img src="couresel 5.jpg"
+                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+                    data-carousel-slide-to="3"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+                    data-carousel-slide-to="4"></button>
+            </div> 
+          
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M5 1 1 5l4 4" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 9 4-4-4-4" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+
+        <h1 class="text-center text-4xl text-[#D2C1B6]">The Blues Hotel & Tour</h1>
+        <br>
+        <p class="text-center text-[#F9F3EF]">A Glass and a Half in Every welcome all.</p>
+        </div>
+        <br>
+        
+        <div class="text-center">
+            <a href="Booking Page.html" class="button">Book a Trip</a>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="form-section mt-5">
+                        <h3 id="booktable">Book A Trip</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Full Name"
+                                        style="width: 350px; height: 25px;" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number"
+                                        style="width: 350px; height: 25px;" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="number" class="form-control" placeholder="Number of People"
+                                        style="width: 350px; height: 25px;" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="date" class="form-control" placeholder="Date"
+                                        style="width: 350px; height: 25px;" required>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="4" placeholder="Message"
+                                        style="width: 350px; height: 150px;"></textarea>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <button type="submit" class="btn btn-submit">Book Trip</button>
+                                </div>
+                            </div>
+                            <a href="#" class="close">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+   
+    <div class="grid grid-cols-2 grid-rows-2 gap-[90px] w-full pl-[150px] pr-[150px]">
+
+
+        <div
+            class="text-center box-shadow: 20px 4px 6px rgba(4, 169, 210, 0.1) p-[5px] scroll-m-[30px] w-[500px] h-[300px] rounded-full-[10px]">
+
+            <img src="Image 1.jpg" alt="Maasai Mara" class="w-[500px] h-[300px]">
+
+            <br>
+            <div class="flex">
+                <h2 class="text-[#D2C1B6] text-2xl pl-[30px]">Maasai Mara Kenya</h2>
+                <p class="pt-[5px] pl-[150px] text-[#D2C1B6]">@100 dollars</p>
+            </div>
+            <br>
+            <ul class="text-[#F9F3EF]">
+                <li>Game Drive With Professional Tour Guide</li>
+                <li>3 Days; 2 Nights Accommodation</li>
+                <li>Meals on Full Board</li>
+                <li>Transport in a custom-designed safari vehicle</li>
+                <li>Park entrance fees</li>
+            </ul>
+        </div>
+        <div
+            class="text-center box-shadow: 20px 4px 6px rgba(4, 169, 210, 0.1) p-[5px] scroll-m-[30px] w-[500px] h-[500px] rounded-full-[10px]">
+            <img src="image 2.jpg" alt="Eiffel Tower" class="w-[500px] h-[300px]">
+            <br>
+            <div class="flex">
+                <h2 class="text-[#D2C1B6] text-2xl pl-[30px]">Eiffel Tower Paris</h2>
+                <p class="pt-[5px] pl-[150px] text-[#D2C1B6]">@400 dollars</p>
+            </div>
+            <br>
+            <ul class="text-[#F9F3EF]">
+                <li>Professional Tour Guide</li>
+                <li>3 Days; 2 Nights Accommodation</li>
+                <li>Meals on Full Board</li>
+                <li>Transport in a custom-designed safari vehicle</li>
+                <li>Entrance fees</li>
+            </ul>
+        </div>
+        <div
+            class="text-center box-shadow: 20px 4px 6px rgba(4, 169, 210, 0.1) p-[5px] scroll-m-[30px] w-[500px] h-[500px] rounded-full-[10px]">
+            <img src="image 3.jpg" alt="Statue of Liberty" class="w-[500px] h-[400px]">
+            <br>
+            <div class="flex">
+                <h2 class="text-[#D2C1B6] text-2xl pl-[30px]">Statue of Liberty U.S.A</h2>
+                <p class="pt-[5px] pl-[150px] text-[#D2C1B6]">@350 dollars</p>
+            </div>
+            <br>
+            <ul class="text-[#F9F3EF]">
+                <li>Professional Tour Guide</li>
+                <li>3 Days; 2 Nights Accommodation</li>
+                <li>Meals on Full Board</li>
+                <li>Transport in a custom-designed safari vehicle</li>
+                <li>Entrance fees</li>
+                <li>Tips</li>
+            </ul>
+        </div>
+
+        <div
+            class="text-center box-shadow: 20px 4px 6px rgba(4, 169, 210, 0.1) p-[5px] scroll-m-[30px] w-[500px] h-[500px] rounded-full-[10px]">
+            <img src="image 4.jpg" alt="Taj Mahal" class="w-[500px] h-[400px]">
+            <br>
+            <div class="flex">
+                <h2 class="text-[#D2C1B6] text-2xl pl-[30px]">Taj Mahal India</h2>
+                <p class="pt-[5px] pl-[150px] text-[#D2C1B6]">@280 dollars</p>
+            </div>
+            <br>
+            <ul class="text-[#F9F3EF]">
+                <li>Professional Tour Guide</li>
+                <li>2 Days; 1 Nights Accommodation</li>
+                <li>Meals on Full Board</li>
+                <li>Transport in a custom-designed safari vehicle</li>
+                <li>Entrance fees</li>
+            </ul>
+        </div>
+    </div>
+    <h1 class="text-center text-3xl pt-[200px] text-[#D2C1B6]">Why Travel With Us</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4  p-8">
+
+        <div>
+            <div class="relative rounded-full overflow-hidden  max-w-sm mx-auto pl-[50px]">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/online-support.png"
+                    alt="online-support" />
+            </div>
+            <p class="font-semibold text-xl text-[#D2C1B6] text-center">Customer Support</p>
+            <p class="text-[#F9F3EF]">we are committed to providing exceptional support to ensure your experience is
+                smooth and satisfactory. We offer multiple convenient ways to get in touch, so you can choose the method
+                that best suits your needs.</p>
+
+        </div>
+
+
+        <div>
+            <div class="relative rounded-full overflow-hidden w-full max-w-sm mx-auto">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/get-cash.png" alt="get-cash" />
+            </div>
+            <p class="font-semibold text-xl text-[#D2C1B6] text-center">Value for Money</p>
+            <p class="text-[#F9F3EF]">we believe that true value goes beyond just the price tag. It's about the
+                comprehensive benefits you receive, the quality you experience, and the long-term satisfaction you gain
+                from choosing us. Our commitment to providing exceptional value for money is woven into every aspect of
+                our services.
+            </p>
+        </div>
+
+
+        <div>
+            <div class="relative rounded-full overflow-hidden w-full max-w-sm mx-auto">
+                <img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/safety-care-1.png"
+                    alt="safety-care-1" />
+
+            </div>
+            <h2 class=" font-semibold text-xl text-[#D2C1B6] text-center">Guaranteed Safety</h2>
+            <p class="text-[#F9F3EF]">your safety, well-being, and peace of mind are our paramount concerns. We stand by
+                an
+                absolute commitment to safety, ensuring that every product, service, and interaction with us is
+                designed, developed, and delivered with the highest possible level of security and protection.
+            </p>
+        </div>
+
+
+        <div>
+            <div class="relative rounded-full overflow-hidden w-full max-w-sm mx-auto">
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/welfare.png" alt="welfare" />
+            </div>
+            <p class="font-semibold text-xl text-[#D2C1B6] text-center">Care</p>
+
+            <p class="text-[#F9F3EF]">Our commitment to care means we are dedicated to fostering positive experiences,
+                building lasting trust, and ensuring that every interaction with us leaves you feeling valued and
+                understood.
+            </p>
+        </div>
+    </div>
+    <section class="text-[#F9F3EF] bg-[#1B3C53] body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <h1 class="text-3xl font-medium title-font text-[#D2C1B6] mb-12 text-center">Testimonials</h1>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3 w-full">
+                    <div class="h-full bg-[#456882] bg-opacity-40 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">Sara did an amazing job designing a user-friendly and intuitive
+                            experience for our project. Her attention to detail and creativity made a huge difference!
+                        </p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="Avatar.jpeg"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-white">Huda Samer</span>
+                                <span class="text-gray-300 text-sm">CEO</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 w-full">
+                    <div class="h-full bg-[#456882] bg-opacity-40 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">Sara did an amazing job designing a user-friendly and intuitive
+                            experience for our project. Her attention to detail and creativity made a huge difference!
+                        </p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="Avatar.jpeg"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-white">Huda Samer</span>
+                                <span class="text-gray-300 text-sm">CEO</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 w-full">
+                    <div class="h-full bg-[#456882] bg-opacity-40 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-500 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">Sara did an amazing job designing a user-friendly and intuitive
+                            experience for our project. Her attention to detail and creativity made a huge difference!
+                        </p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="Avatar.jpeg"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-white">Huda Samer</span>
+                                <span class="text-gray-300 text-sm">CEO</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   <footer class="text-[#F9F3EF] body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-xl mb-3">Learn More</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href = "About Us Page.html"class="text-[#F9F3EF] hover:text-blue-500">About Us</a>
+          </li>  
+            <a href = "Contact Page.html"class="text-[#F9F3EF] hover:text-blue-500">Contact Page</a>
+          </li>
+          <li>
+            <a href = "Travel Tips.html"class="text-[#F9F3EF] hover:text-blue-500">Travel Tips</a>
+          </li>
+          <li>
+            <a href = "Gallary Page.html"class="text-[#F9F3EF] hover:text-blue-500">Gallary Page</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Destinations</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href = "Destination Page.html"class="text-[#F9F3EF] hover:text-blue-500">Destination Page</a>
+          </li>
+          <li>
+            <a href = "Destination Page Details.html"class="text-[#F9F3EF] hover:text-blue-500">Destination Page Details</a>
+          </li>
+          <li>
+            <a href = "Booking Page.html"class="text-[#F9F3EF] hover:text-blue-500">Booking Page</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href = "index.html"class="text-[#F9F3EF] hover:text-blue-500">Home Page</a>
+          </li>
+          <li>
+            <a href = "Destination Page.html"class="text-[#F9F3EF] hover:text-blue-500">Destination Page</a>
+          </li>
+          <li>
+            <a href = "Destination Page Details.html"class="text-[#F9F3EF] hover:text-blue-500">Destination Page Details</a>
+          </li>
+          <li>
+            <a href = "Booking Page.html"class="text-[#F9F3EF] hover:text-blue-500">Booking Page</a>
+          </li>
+           <li>
+            <a href = "About Us Page.html"class="text-[#F9F3EF] hover:text-blue-500">About Us</a>
+          </li>
+           <li>
+            <a href = "Gallary Page.html"class="text-[#F9F3EF] hover:text-blue-500">Gallary Page</a>
+          </li>
+           <li>
+            <a href = "Travel Tips.html"class="text-[#F9F3EF] hover:text-blue-500">Travel Tips</a>
+          </li>
+           <li>
+            <a href = "Contact Page.html"class="text-[#F9F3EF] hover:text-blue-500">Contact Us</a>
+          </li>
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+        <div class="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+          <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+            <label for="footer-field" class="leading-7 text-sm text-[#F9F3EF]">Placeholder</label>
+            <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <button class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Button</button>
+        </div>
+        <p class="text-[#F9F3EF] text-sm mt-2 md:text-left text-center">Feel free to connet with us
+          <br class="lg:block hidden">All comments are valued
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+     <div class="flex items-center space-x-2 text-[#456882]">
+          <a href="index.html">
+            <p class="text-2xl">The Blues Hotel &</p>
+            <p class="pl-[60px]">Tours</p>
+          </a>
+        </div>
+      
+      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2024 Blue Hotel & Tour —
+        <a href="http://127.0.0.1:5500/index.html" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </div>
+</footer>
+    
+</body>
+
+</html>
